@@ -54,6 +54,9 @@ input {
   margin-bottom: 10px;
   outline: none;
 }
+input::placeholder{
+    color: #d8d8d8;
+}
 button {
   background-color: antiquewhite;
   margin-top: 20px;
@@ -107,3 +110,11 @@ input:focus:invalid{
 input:focus:valid{
     border: 1px solid #8BC34A;
 }
+input:focus::placeholder{
+    color: transparent;
+}
+input:placeholder-shown{
+    background-color: transparent;
+    border: 1px solid #d8d8d8;
+}
+
