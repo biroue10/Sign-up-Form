@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign-up Form</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/images/contact-form.png"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="element image"></div>
+      <div class="element formulaire">
+        <div class="elementform1">
+          <form action="">
+            <table>
+              <tr>
+                <td>
+                  <label for="first-name">First Name:</label>
+                  <input type="text" required />
+                </td>
+                <td>
+                  <label for="last-name">Last Name:</label>
+                  <input type="text" required />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="email">Email:</label>
+                  <input type="email" name="email" id="email" required />
+                </td>
+                <td>
+                  <label for="phone">Phone Number:</label>
+                  <input type="tel" name="phone" id="phone" required />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="password">Password:</label>
+                  <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    required
+                  />
+                </td>
+                <td>
+                  <label for="password2">Confirm Password:</label>
+                  <input
+                    type="password"
+                    name="password2"
+                    id="password2"
+                    required
+                  />
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        <div>
+          <button>Create Account</button>
+        </div>
+        <div><p>Already have an account? <a href="#">Log In</a></p></div>
+      </div>
+    </div>
+  </body>
+</html>
