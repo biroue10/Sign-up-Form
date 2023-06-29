@@ -39,6 +39,7 @@ label {
   font-weight: 700;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
+ opacity: 0.5;
 }
 table {
   width: 100%;
@@ -99,4 +100,10 @@ h1{
     font-weight: 900;
     text-transform:uppercase;
     font-style: italic;
+}
+input:focus:invalid{
+    border: 1px solid #b92326;
+}
+input:focus:valid{
+    border: 1px solid #8BC34A;
 }
