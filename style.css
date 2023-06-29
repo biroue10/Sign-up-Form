@@ -37,7 +37,7 @@ form {
 label {
   display: block;
   font-weight: 700;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
 }
 table {
@@ -70,7 +70,7 @@ a {
 h1{
     position: relative;
     bottom: 100px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-weight: bold;
     font-size: 3rem;
 }
@@ -97,4 +97,6 @@ h1{
     align-items: center;
     font-size: 3rem;
     font-weight: 900;
+    text-transform:uppercase;
+    font-style: italic;
 }
